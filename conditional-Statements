@@ -1,0 +1,4 @@
+let grade = 15
+if (grade >= 10) {
+    console.log("This is a passing grade")
+}
