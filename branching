@@ -1,5 +1,10 @@
-let age = 15
-if (age >= 18) {
-    console.log("You can vote")
+function getVotingMessage(age) {
+    if (age >= 18) {
+        return "You are allowed to vote"
+    }
 }
-console.log("End of program")
+
+//Sample usage - do not modify
+console.log(getVotingMessage(10))
+console.log(getVotingMessage(20))
+console.log(getVotingMessage(18))
