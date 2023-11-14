@@ -1,0 +1,18 @@
+age >= 18
+let age = 10
+age = 20 // this is NOT a comparison. This is an assignment
+console.log(age)
+!==
+===
+=
+> checks that the number on the left is strictly greater than the number on the right.
+>= (written as >=) checks that the number on the left is greater than or equal to the number on the right.
+< checks that the number on the left is strictly lesser than the number on the right.
+<= (written as <=) checks that the number on the left is lesser than or equal to the number on the right.
+a > b returns true when a is strictly greater than b
+a < b returns true when a is strictly lesser than b
+The result of comparisons is always going to be a boolean. Either true or false.
+The = operator is always used for assignment.
+The === operator (written as ===) is always used for equality comparison.
+Confusing = and === is a common mistake. Don't worry!
+The !== operator (written as !==) returns true when the 2 numbers given are NOT the same.
