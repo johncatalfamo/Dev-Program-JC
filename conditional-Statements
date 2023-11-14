@@ -1,4 +1,11 @@
 let grade = 15
+if (grade >= 15) {
 if (grade >= 10) {
     console.log("This is a passing grade")
 }
+}
+age = 18
+if age >= 18 {
+    console.log()
+}
+ 
